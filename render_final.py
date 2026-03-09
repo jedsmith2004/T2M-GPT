@@ -2,7 +2,7 @@ from models.rotation2xyz import Rotation2xyz
 import numpy as np
 from trimesh import Trimesh
 import os
-os.environ['PYOPENGL_PLATFORM'] = "osmesa"
+os.environ['PYOPENGL_PLATFORM'] = "egl"
 
 import torch
 from visualize.simplify_loc2rot import joints2smpl
